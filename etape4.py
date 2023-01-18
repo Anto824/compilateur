@@ -184,7 +184,7 @@ def ecrire(): #analyse des instructions d'ecriture
         token_suivant()
         expression()
         genere('PRN')
-    test(")")
+    test(")") #fin de la fonction ecrire
 
 def lire(): #analyse des instructions de lecture
     test("read")
